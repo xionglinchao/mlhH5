@@ -1,0 +1,23 @@
+.vux-header{
+  width: 100%;
+  height: 0.9rem !important;
+  background: #fff !important;
+  position: fixed !important;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+.vux-header-title{
+  color: #333333 !important;
+  font-size: 0.36rem !important;
+}
+.vux-header .vux-header-left, .vux-header .vux-header-right{
+  color: #333 !important;
+}
+.vux-header .vux-header-left .left-arrow:before{
+  border: 1px solid #333 !important;
+  border-width: 2px 0 0 2px !important;
+  width: 0.15rem !important;
+  height: 0.15rem !important;
+  top: 9px !important;
+}
